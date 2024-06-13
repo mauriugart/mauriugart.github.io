@@ -221,7 +221,7 @@ h2 {
     margin: 0 auto;
 }
 
-.project a{
+.project a {
     width: 20%;
     display: flex;
     margin: 20px auto;
@@ -236,39 +236,39 @@ h2 {
     transition: all 0.3s ease;
 }
 
-.project a:hover{
+.project a:hover {
     background-color: violet;
 }
 
-.project a img{
+.project a img {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-#contact{
+#contact {
     margin: 20px auto;
     width: 80%;
 }
 
-#contact h2{
+#contact h2 {
     font-size: 3rem;
     text-align: center;
     margin: 20px;
 }
 
-#contact form{
+#contact form {
     display: grid;
     justify-content: center;
     text-align: center;
 }
 
-#contact form label{
+#contact form label {
     text-align: left;
     font-size: 1.5rem;
 }
 
 #contact form input,
-textarea{
+textarea {
     text-align: left;
     font-size: 1rem;
     background-color: transparent;
@@ -281,11 +281,11 @@ textarea{
     outline: none;
 }
 
-#contact form textarea{
+#contact form textarea {
     resize: none;
 }
 
-#contact form button{
+#contact form button {
     background-color: transparent;
     border: 2px solid white;
     font-size: 1.5rem;
@@ -297,15 +297,24 @@ textarea{
     transition: all 0.3s ease;
 }
 
-#contact form button:hover{
+#contact form button:hover {
     cursor: pointer;
     background-color: violet;
 }
 
-#contact form button:active{
+#contact form button:active {
     background-color: black;
 }
 
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 @media only screen and (max-width: 1000px) {
     :root {
@@ -336,11 +345,13 @@ textarea{
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr 1fr;
     }
+
     .nav-links {
         flex-wrap: wrap;
         flex-direction: row;
     }
-    .nav-links a{
+
+    .nav-links a {
         margin: 10px;
     }
 }
