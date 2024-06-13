@@ -1,59 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./reset.css">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-        <title>Mauricio Ugarte</title>
-    </head>
+<html lang="en">
 
-    <body>
-        <nav>
-            <a href="#top" id="logo">M</a>
-            <ul class="nav-links">
-                <li><a href="#about-me">ABOUT ME</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#blog">BLOG</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#github">GITHUB</a></li>
-                <li><a href="#linkedin">LINKEDIN</a></li>
-            </ul>
-        </nav>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
+    </noscript>
+    <title>Mauricio Ugarte</title>
+</head>
 
-        <header>
-            <div class="left" id="my-name">
-                <h2>Hello! My name is:</h2>
-                <h1>Mauricio Ugarte.</h1>
-                <h2>I'm a student of Full-stack.</h2>
-                <div id="view-portfolio">
-                    <a href="#portfolio">View Portfolio</a>
-                </div>
+<body>
+    <nav>
+        <a href="#top" id="logo">M</a>
+        <ul class="nav-links">
+            <li><a href="#about-me">ABOUT ME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="https://github.com/mauriugart" target="_blank">GITHUB</a></li>
+            <li><a href="https://linkedin.com/in/mauricio-ugarte-b0a246310" target="_blank">LINKEDIN</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="left" id="my-name">
+            <h2>Hello! My name is:</h2>
+            <h1>Mauricio Ugarte.</h1>
+            <h2>I'm a student of Full-stack.</h2>
+            <div id="view-portfolio">
+                <a href="#portfolio">View Portfolio</a>
             </div>
+        </div>
 
-            <div class="right" id="profile-picture">
-            <img src="./profile-picture.webp" alt="Mauricio Ugarte profile picture"/>
+        <div class="right" id="profile-picture">
+            <img src="./profile-picture.webp" alt="Mauricio Ugarte profile picture" />
+        </div>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            I'm 22 years old, residing in <span class="violet">Lima, Peru!</span> home of, in my opinion, the best
+            Culinary.
+            I've been studying <span class="violet">Full-stack development</span> on codecademy for 2 weeks now.
+            I like <span class="violet">programming</span> since I can see immediate results of my work.
+            My strong <span class="violet">skills</span> are problem solving and thinking out of the box.
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div id="projects">
+            <div class="project">
+                <img src="./esports.webp" alt="Esport Player Profile website">
+                <h3>Esport Player Profile</h3>
+                <p>
+                    This was mi first personal project that got me hooked up to front-end development! It was made using
+                    basic html and CSS.
+                    It's my take on an already existing webpage.
+                </p>
+                <a href="https://mauriugart.github.io/Professional-Esports-Player-Profile/">
+                    <img src="./link.svg" alt="link logo">
+                    Link
+                </a>
             </div>
-        </header>
+            <div class="project">
+                <img src="./bussines.webp" alt="Company home page website">
+                <h3>Company home page</h3>
+                <p>
+                    Second project that I made while completing the first section of the Codecademy Full stack
+                    development path.
+                </p>
+                <a href="https://mauriugart.github.io/Professional-Esports-Player-Profile/">
+                    <img src="./link.svg" alt="link logo">
+                    Link
+                </a>
+            </div>
+            <div class="project">
+                <img src="./club.webp" alt="Club Website">
+                <h3>Club Website</h3>
+                <p>
+                    Third project took me a while to complete. It's focus was on implementing Media query's for
+                    responsiveness.
+                </p>
+                <a href="https://mauriugart.github.io/Professional-Esports-Player-Profile/">
+                    <img src="./link.svg" alt="link logo">
+                    Link
+                </a>
+            </div>
+        </div>
+    </section>
 
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>
-                I'm 22 years old, residing in <span class="violet">Lima, Peru!</span> home of, in my opinion, the best Culinary.
-                I've been studying <span class="violet">Full-stack development</span> on codecademy for 2 weeks now.
-                I like <span class="violet">programming</span> since I can see immediate results of my work.
-                My strong <span class="violet">skills</span> are problem solving and thinking out of the box.
-            </p>
-        </section>
+    <section id="contact">
+        <h3>Contact Me!</h3>
+    </section>
+</body>
 
-    </body>
+<footer>
 
-    <footer>
+</footer>
 
-    </footer>
+<script src="./script.js"></script>
 
-    <script src="./script.js"></script>
 </html>
